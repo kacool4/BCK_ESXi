@@ -27,4 +27,7 @@ If you run it under domain account that has access to vCenter it will not ask yo
 * Can I put multiple vCenters?
    > Yes. You can put all the vCenters in the server_list.txt  in the format of one under another NOT in one line separated via commas.
  
+ * Can I use those files to restore the hosts?
+   > Yes. BUT BE Careful as the restore is working on the exact same version and build version. You cannot backup esxi 6.7 build 19898904 and restore to 6.7 Build 20497097 (or even ESXi version 7.x). If your backup is esxi 6.7 build 19898904 then when you rebuild a new ESXi and want to restore from the files must be version esxi 6.7 build 19898904
+ 
   
