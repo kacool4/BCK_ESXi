@@ -7,7 +7,7 @@
 * Windows Server 2012 and above // Windows 10
 * Powershell 5.1 and above
 * PowerCLI either standalone or import the module in Powershell (Preferred)
-* ESXi version 6.X
+* ESXi version 6.X or 7.x
 * ESXi must be part of a vCenter
 
 ## Running the script
