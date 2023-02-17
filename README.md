@@ -1,7 +1,7 @@
 # Backup ESXi configuration of your Infra.
 
 ## Scope:
- You can use the script in order to backup ESXi configuration of your environment. Insert all the vCenters on the file "server_list.txt" and run it. The script will create folder structure same as your infra cluster. It will go to each cluster and take backup configuration of the hosts and store it to the correct folder/cluster. In the end it will zip the main folder (it would be the folder with naming of the current date).
+ You can use the script in order to backup ESXi configuration of your environment. Insert all the vCenters on the file "server_list.txt" and run it. The script will create folder structure same as your infra clusters. It will go to each cluster and take backup configuration of the hosts and store it to the correct folder/cluster. In the end it will zip the main folder (it would be the folder with naming of the current date).
 
 ## Requirements:
 * Windows Server 2012 and above // Windows 10
